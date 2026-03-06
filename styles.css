@@ -13,12 +13,12 @@
 
 /* ── VARIABLES ── */
 :root {
-    --bg: #4d4d4d;
+    --bg: #181818;
     --surface: rgba(0, 0, 0, 0.55);
     --border: rgba(255, 255, 255, 0.08);
     --accent1: #000000;
-    --accent2: #b3adad;
-    --accent3: #c8c6b1;
+    --accent2: #818181;
+    --accent3: #b8bca0;
     --text: #d7d7d7;
     --muted: #918f8f;
     --white: #ffffff;
@@ -128,7 +128,7 @@ body::before {
     top: 0;
     left: 0;
     height: 3px;
-    background: linear-gradient(90deg, #7cb99a, #9b93b8);
+    background: linear-gradient(90deg, #474747, #9b93b8);
     z-index: 200;
     width: 0%;
     transition: width 0.1s linear;
@@ -238,6 +238,10 @@ section.visible {
     width: 100%;
 }
 
+.djvt {
+    text-shadow: 2px 2px 5px #1a1a1a;
+}
+
 /* ── GLASS CARD ── */
 .glass {
     background: var(--surface);
@@ -338,9 +342,10 @@ h1 em {
 .hero-desc {
     font-size: 1.05rem;
     line-height: 1.75;
-    color: var(--muted);
+    color: #d7d7d7;
     max-width: 480px;
     margin-bottom: 36px;
+    text-shadow: 5px 4px 3px #1a1a1a;
 }
 
 .hero-btns {
@@ -481,9 +486,9 @@ h1 em {
 .badge-net {
     top: 48%;
     right: -48px;
-    background: rgba(100, 180, 140, 0.22);
-    color: #6dc49a;
-    border: 1px solid rgba(100, 180, 140, 0.35);
+    background: rgba(185, 109, 175, 0.22);
+    color: #c46da9;
+    border: 1px solid rgba(180, 100, 140, 0.3);
     animation: floatBadge 3.8s ease-in-out infinite 1s;
 }
 
@@ -531,9 +536,9 @@ h1 em {
 }
 
 .badge-mob.net {
-    background: rgba(100, 180, 140, 0.18);
-    color: #6dc49a;
-    border: 1px solid rgba(100, 180, 140, 0.3);
+    background: rgba(185, 109, 175, 0.22);
+    color: #c46da9;
+    border: 1px solid rgba(180, 100, 140, 0.3);
 }
 
 /* ══════════════════════════════════
@@ -763,53 +768,58 @@ h1 em {
    COLORES DE ACENTO
 ══════════════════════════════════ */
 .fill-sage {
-    background: #7cb99a;
+    background: #467cab;
+}
+
+.fill-redes {
+    background: #9c46ab;
 }
 
 .fill-sand {
-    background: #c4a97d;
+    background: #2110a8;
 }
 
 .fill-sky {
-    background: #7aadcc;
+    background: #ac946c;
 }
 
 .fill-lav {
-    background: #9b93b8;
+    background: #b4b566;
 }
 
 .fill-rose {
-    background: #cc8888;
+    background: #be6c4c;
 }
 
 .icon-sage {
     background: rgba(124, 185, 154, 0.15);
-    color: #7cb99a;
+    color: #467cab;
 }
 
 .icon-sand {
-    background: rgba(196, 169, 125, 0.15);
-    color: #c4a97d;
+    background: rgba(36, 0, 167, 0.15);
+    color: #f5f5f589;
+    ;
 }
 
 .icon-sky {
     background: rgba(122, 173, 204, 0.15);
-    color: #7aadcc;
+    color: #ccbfbf;
 }
 
 .icon-lav {
     background: rgba(155, 147, 184, 0.15);
-    color: #9b93b8;
+    color: #b4b566;
 }
 
 .icon-rose {
-    background: rgba(204, 136, 136, 0.15);
-    color: #cc8888;
+    background: rgba(255, 255, 255, 0.15);
+    color: #c15f38;
 }
 
-.icon-grey {
-    background: rgba(200, 200, 210, 0.10);
-    color: #aaa;
+.icon-redes {
+    background: rgba(109, 23, 108, 0.189);
+    color: #9c46ab;
 }
 
 /* ══════════════════════════════════
